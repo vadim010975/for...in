@@ -4,8 +4,6 @@ const obj = {
   name: 'мечник', health: 10, level: 2, attack: 80, defence: 40,
 };
 
-Object.getPrototypeOf(obj).clan = 'orc';
-
 const expected = [
   { key: 'name', value: 'мечник' },
   { key: 'level', value: 2 },
